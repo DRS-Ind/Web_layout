@@ -21,35 +21,6 @@ body {
 	font-family: Arial, Verdana, sans-serif;
 }
 
-h1 {
-  margin-top: 0;
-  margin-bottom: 40px;
-
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 60px;
-  color: #333;
-}
-
-h2 {
-  margin-top: 0;
-  margin-bottom: 10px;
-
-  font-size: 40px;
-  line-height: 46px;
-  color: #333;
-}
-
-h3 {
-  margin-top: 0;
-  margin-bottom: 10px;
-
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 34px;
-  color: #333;
-}
-
 p {
   font-weight: 400;
   font-size: 20px;
@@ -59,6 +30,35 @@ p {
 
 ul li::marker {
   color: #3f2aff;
+}
+
+.main-header {
+  margin-top: 0;
+  margin-bottom: 40px;
+
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #333;
+}
+
+.article-header {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #333;
+}
+
+.graybox-header {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-size: 40px;
+  line-height: 46px;
+  color: #333;
 }
 
 .main-content {
@@ -151,6 +151,7 @@ ul li::marker {
 .link {
   display: inline-block;
   padding: 24px 49px;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 18px;
@@ -169,9 +170,7 @@ ul li::marker {
 }
 
 .download_link {
-  display: inline-block;
-  padding: 49px 28px;
-
+  padding-left: 30px;
   font-weight: 700;
   font-size: 18px;
   color: #3f2aff;

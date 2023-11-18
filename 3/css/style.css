@@ -21,12 +21,17 @@ body {
 	font-family: 'font', sans-serif;
 }
 
-h1 {
+.main-header {
   margin-top: 0;
   margin-bottom: 40px;
 }
 
-h2, h3 {
+.article-header {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.graybox-header {
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -96,6 +101,7 @@ h2, h3 {
 .link {
   display: inline-block;
   padding: 24px 49px;
+  margin-bottom: 50px;
 }
 
 .link:not(:last-child) {
